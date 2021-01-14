@@ -151,13 +151,11 @@ p{
 /* table */
 .column {
     float: left;
-    width: 40%;
+    width: 46%;
     padding: 0 10px;
 }
 .row{
     margin: 0 -5px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .row:after{
     content: "";
@@ -170,7 +168,7 @@ p{
     text-align: center;
     background-color: #f1f1f1;
 }
-@media screen and (max-width:800px) {
+@media screen and (max-width:1030px) {
     .column {
       width: 100%;
       display: block;
@@ -184,4 +182,17 @@ p{
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.social-column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+.social-row{
+    margin: 0 -5px;
+}
+.contacts{
+    letter-spacing: 1px;
+    white-space: inherit;
+    margin-bottom: 25px;
 }
